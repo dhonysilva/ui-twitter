@@ -18,7 +18,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
       <div className='content'>
         <main className='timeline'>
 
-          <Header />
+          <Header title="Home" />
 
           <form className='new-tweet-form'>
             <label htmlFor="tweet">
