@@ -1,4 +1,9 @@
-export function Tweet(props) {
+interface TweetProps {
+    user: string
+    children: string
+}
+
+export function Tweet(props: TweetProps) {
     return(
         <div>
             <strong>{props.user}</strong>
