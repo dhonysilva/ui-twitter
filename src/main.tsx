@@ -6,9 +6,9 @@ import { Tweet } from './components/Tweet'
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
     <div>
-      <Tweet user="Dhony" content="Meu primeiro Tweet" />
-      <Tweet user="Tamara" content="Meu primeiro Tweet" />
-      <Tweet user="Marco Tulio" content="Meu primeiro Tweet" />
+      <Tweet user="Dhony">Meu primeiro Tweet</Tweet>
+      <Tweet user="Dhony">Meu primeiro Tweet</Tweet>
+      <Tweet user="Dhony">Meu primeiro Tweet</Tweet>
 
     </div>
   </React.StrictMode>
