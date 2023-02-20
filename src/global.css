@@ -81,6 +81,15 @@ a {
     
 }
 
+.main-navigation a.active {
+    color: var(--twitter-blue);
+}
+
+.main-navigation a svg {
+    width: 2rem;
+    height: 2rem;
+}
+
 .content {
     border-left: 1px solid #ebeef0;
     border-right: 1px solid #ebeef0;
