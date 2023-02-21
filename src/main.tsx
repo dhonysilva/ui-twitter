@@ -35,7 +35,7 @@ ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
           <div className="separator" />
 
           {tweets.map(tweet => {
-            return <Tweet content={tweet} />
+            return <Tweet key={tweet} content={tweet} />
           })}
 
         </main>
